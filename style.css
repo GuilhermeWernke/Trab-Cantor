@@ -1,0 +1,117 @@
+/* 
+    Paleta de cor: 
+
+    Preto: 0a0908
+    Azul: 22333b
+    Branco: f2f4f3
+    Bege: a9927d
+    Marrom: 5e503f 
+*/
+
+* 
+{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+
+    background-color: #a9927d;
+    display: flex;
+}
+
+main 
+{
+    background-color: #a9927d;
+    flex: 1;
+    padding: 20px;
+}
+
+header
+{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #5e503f;
+    color: #f2f4f3;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+img
+{
+
+    border-radius: 5px;
+    height: 600px;
+
+}
+
+footer
+{
+
+    text-align: center;
+    background-color: #463a2b;
+    width: 995px;
+
+}
+
+.container 
+{
+    margin-right: 220px; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container > div 
+{
+    color: #22333b;
+    padding: 10px;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.div1, .div2, .div3, .div4, .div5, .div6, .div7
+{
+    width: 100%; 
+}
+
+.sidebar h2 
+{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.sidebar ul 
+{
+    list-style: none;
+    background-color: #5e503f;
+}
+
+.sidebar ul li 
+{
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a 
+{
+    color: #f2f4f3;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover 
+{
+    text-decoration: underline;
+}
+
+.content 
+{
+    background-image: url('imagem/foto3por4.jpeg.jpg'); /* Substitua pelo caminho da sua imagem de fundo */
+    background-size: cover;
+}
